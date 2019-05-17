@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/default.css">
+  <title>Newsweek - World News, Politics, Science & Technology, Sports & Entertainment</title>
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+  <div class="inner-main pb-1">
+    <nav class="navbar d-flex align-items-baseline">
+      <span class="text-white" id="date"></span>
+      <span class="navbar-brand text-white font-navbar-big mx-auto" href="#">Newsweek</span>
+      <button type="button" class="btn btn-error">Sign In</button>
+      <button type="button" class="btn btn-light">Subscribe</button>
+    </nav>
+
+    <ul class="nav justify-content-around">
+      <li class="nav-item">
+        <a class="nav-link text-hover-color" href="#">U.S.</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-hover-color" href="#">World</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-hover-color" href="#">Business</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-hover-color" href="#">Tech & Science</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-hover-color" href="#">Culture</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-hover-color" href="#">Sports</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-hover-color" href="#">Health</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-hover-color" href="#">Opinion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-hover-color" href="#">Ndelible</a>
+      </li>
+    </ul>
+
+    <hr>
+
+    <div class="row mt-3">
+      <div class="col-lg-4">
+        <div class="news">
+          <h6 class="main-header">FEATURED STORIES</h6>
+          <div class="news-image">
+            <img src="img/doneldfrump.jpg" class="img-fluid img-featured" alt="...">
+            <p class="category px-2 py-2 text-center">U.S.</p>
+          </div>
+
+          <article>
+            <h3><a class="headline-font pt-2" href="#">Donald Trump slams evidence about obstruction of justice
+                presented in Mueller Report</a></h3>
+            <p class="subhead-font">Attorney General William Barr told lawmakers that evidence relating to whether
+              President Donald Trump
+              obstructed justice “will be identifiable” when he releases a redacted version of special counsel Robert
+              Mueller's report by mid-month.</p>
+          </article>
+
+          <div class="sub-font sub-article pt-1 mb-3">
+            <h6><a class="sub-font" href="#">William Barr Says Evidence Won't Be Redacted from Mueller Report</a></h6>
+          </div>
+        </div>
+
+        <div class="news">
+          <div class="news-image">
+            <img src="img/netanyahu.jpg" class="img-fluid img-featured" alt="...">
+            <p class="category px-2 py-2 text-center">WORLD</p>
+          </div>
+
+          <article>
+            <h6 class="pt-2"><a class="headline-font" href="#">Netanyahu Re-Elected, To Serve His Fifth Term</a></h6>
+            <p class="subhead-font">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quo nulla dicta
+              suscipit.</p>
+          </article>
+
+          <div class="sub-article pt-1 mb-3">
+            <h6><a class="sub-font" href="#">Ocasio-Cortez: Combat Climate Change to Curb Migration</a></h6>
+          </div>
+        </div>
+
+        <div class="news">
+          <div class="news-image">
+            <img src="img/airplanes.jpg" class="img-fluid img-featured" alt="...">
+            <p class="category px-2 py-2 text-center">WORLD</p>
+          </div>
+
+          <article>
+            <h6 class="pt-2"><a class="headline-font" href="#">Howard Schultz Slams Bernie Sanders' Agenda</a></h6>
+            <p class="subhead-font">"The country needs a centrist approach," the billionaire and former Starbucks CEO
+              said.</p>
+          </article>
+
+          <div class="sub-article pt-1 mb-3">
+            <h6><a class="sub-font" href="#">Schultz Says Mostly Female Cabinet Would Be a 'Benefit'</a></h6>
+          </div>
+        </div>
+
+        <div class="news">
+          <div class="news-image">
+            <img src="img/sri-lanka.jpg" class="img-fluid img-featured" alt="...">
+            <p class="category px-2 py-2 text-center">WORLD</p>
+          </div>
+
+          <article>
+            <h6 class="pt-2"><a class="headline-font" href="#">Sri Lanka Muslims Attacked, Forced From Homes</a></h6>
+            <p class="subhead-font">Hundreds of Muslim refugees have been forced to flee Sri Lanka’s west coast
+              following reprisals.</p>
+          </article>
+
+          <div class="sub-article pt-1 mb-3">
+            <h6><a class="sub-font" href="#">Church Attacks Are Opposite of Islam's True Teachings</a></h6>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-5">
+        <div class="top-stories">
+          <h6 class="main-header">TOP STORIES</h6>
+          <div class="column-1">
+            <div class="news-image">
+              <img src="img/doneldfrump2.jpg" class="img-fluid img-top" alt="...">
+              <p class="category px-2 py-2 text-center">U.S.</p>
+            </div>
+
+            <article>
+              <h6 class="pt-2"><a class="top-font" href="#">Experts: More Indictments Likely in SDNY-Trump Probe</a>
+              </h6>
+              <p>Criminal investigators in the Southern District of New York have been gathering more evidence regarding
+                the hush money payments made to two women claiming to have had affairs with the president.</p>
+            </article>
+
+            <div class="sub-article pt-1 mb-3">
+              <h6><a class="more-top-font" href="#">Russia Report Is 'Fraction' of Trump Legal Woes: Expert</a></h6>
+            </div>
+
+            <div class="stories">
+              <h6 class="main-header mb-3">MORE STORIES</h6>
+              <div class="more-stories pt-2">
+                <img src="img/ilhan.jpg" class="img-fluid float-left mr-2 pt-1" alt="...">
+                <a class="more-stories-font" href="#">Ilhan Omar Is Changing the Conversation About Israel</a>
+                <p class="more-stories-desc pt-2">Democrats are speaking out as never before against Israel’s occupation
+                  of the West Bank, while Republicans hope to use the partisan revolt to drive a wedge between Jewish
+                  voters.</p>
+              </div>
+              <div class="more-stories-sub pt-2">
+                <img src="img/nielsen.jpg" class="img-fluid float-left mr-2 pt-1" alt="...">
+                <a class="more-stories-font" href="#">Trump Calls EU 'Brutal' Over Brexit and Trade</a>
+                <p class="more-stories-desc pt-2">The president had once suggested that the British prime minister sue
+                  the European Union in his press conference at White House yesterday.</p>
+              </div>
+              <div class="more-stories-sub pt-2">
+                <img src="img/trump.jpg" class="img-fluid float-left mr-2 pt-1" alt="...">
+                <a class="more-stories-font" href="#">Nielsen Praises 'Excellence' of Outgoing ICE Chief</a>
+                <p class="more-stories-desc pt-2">Ronald Vitiello’s “knowledge and expertise as a seasoned law
+                  enforcement professional has been invaluable to DHS," said former Homeland Security Secretary Kirstjen
+                  Nielsen.</p>
+              </div>
+              <div class="more-stories-sub pt-2">
+                <img src="img/snowden.jpg" class="img-fluid float-left mr-2 pt-1" alt="...">
+                <a class="more-stories-font" href="#">Snowden: Assange Arrest a 'Dark Day for Press Freedom'</a>
+                <p class="more-stories-desc pt-2">"Images of Ecuador's ambassador inviting the U.K.'s secret police into
+                  the embassy to drag a publisher of—like it or not—award-winning journalism out of the building are
+                  going to end up in the history books," Edward Snowden said.</p>
+              </div>
+              <div class="more-stories-sub pt-2">
+                <img src="img/iran.jpg" class="img-fluid float-left mr-2 pt-1" alt="...">
+                <a class="more-stories-font" href="#">Iran to Aid Revolutionary Guards to Fight U.S.</a>
+                <p class="more-stories-desc pt-2">The general staff of the Iranian armed forces warned it would treat
+                  all forces forces enlisted with Centcom, the U.S. central command, as "terrorists."</p>
+              </div>
+              <div class="more-stories-sub pt-2">
+                <img src="img/anti-iran.jpg" class="img-fluid float-left mr-2 pt-1" alt="...">
+                <a class="more-stories-font" href="#">Is Trump's Anti-Iran Arab Coalition Falling Apart?</a>
+                <p class="more-stories-desc pt-2">"Egyptian withdrawal is a huge blow to the Arab NATO idea," one expert
+                  said. "The Arab NATO will properly die not far in the future."</p>
+              </div>
+              <div class="more-stories-sub pt-2">
+                <img src="img/mueller.jpg" class="img-fluid float-left mr-2 pt-1" alt="...">
+                <a class="more-stories-font" href="#">First Democrat Likely to Be Indicted From Mueller Probe</a>
+                <p class="more-stories-desc pt-2">Greg Craig served under Presidents Obama and Clinton and privately
+                  represented prominent party figures, including former North Carolina Senator John Edwards</p>
+              </div>
+              <div class="more-stories-sub pt-2">
+                <img src="img/blackhole.jpg" class="img-fluid float-left mr-2 pt-1" alt="...">
+                <a class="more-stories-font" href="#">Black Hole Hunters: Q&A With Katie Bouman</a>
+                <p class="more-stories-desc pt-2">Bouman, a computer scientist with the Event Horizon Telescope project,
+                  talks about seeing the first-ever image of a black hole.</p>
+              </div>
+              <div class="pt-2">
+                <img src="img/blackhole.jpg" class="img-fluid float-left mr-2 pt-1" alt="...">
+                <a class="more-stories-font" href="#">Black Hole Hunters: Q&A With Katie Bouman</a>
+                <p class="more-stories-desc pt-2">Bouman, a computer scientist with the Event Horizon Telescope project,
+                  talks about seeing the first-ever image of a black hole.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-3 opinions-col">
+        <h6 class="main-header ml-2">OPINIONS</h6>
+        <div class="opinions more-stories-sub mr-3">
+          <img src="img/opinions/opi-1.png" class="img-opi float-left ml-2 mr-2" alt="...">
+          <a class="opi-font" href="#">
+            <p class="pt-1 mb-0">Americans Don't Want Jobs I Can Offer. Immigrants Do</p>
+          </a>
+          <p class="opi-font2 mt-1">BY DAVID MCILWAIN</p>
+        </div>
+        <div class="opinions more-stories-sub mt-1 mr-3">
+          <img src="img/opinions/opi-2.png" class="img-opi float-left ml-2 mr-2" alt="...">
+          <a class="opi-font" href="#">
+            <p class="pt-1 mb-0">Donald Trump is Complicit, Even if Unwittingly</p>
+          </a>
+          <p class="opi-font2 mt-1">BY BRIAN L. OTT</p>
+        </div>
+        <div class="opinions more-stories-sub mt-1 mr-3">
+          <img src="img/opinions/opi-3.png" class="img-opi float-left ml-2 mr-2" alt="...">
+          <a class="opi-font" href="#">
+            <p class="pt-1 mb-0">Do You Only Denounce Anti-Semitism When Convenient?</p>
+          </a>
+          <p class="opi-font2 mt-1">BY IRA FORMAN</p>
+        </div>
+        <div class="opinions more-stories-sub mt-1 mr-3">
+          <img src="img/opinions/opi-4.png" class="img-opi float-left ml-2 mr-2" alt="...">
+          <a class="opi-font " href="#">
+            <p class="pt-1 mb-0">Climate Change Generation Needs to Know What's Coming</p>
+          </a>
+          <p class="opi-font2 mt-1">BY MICHAEL E. MANN</p>
+        </div>
+        <div class="opinions more-stories-sub mt-1 mr-3">
+          <img src="img/opinions/opi-5.png" class="img-opi float-left ml-2 mr-2" alt="...">
+          <a class="opi-font" href="#">
+            <p class="pt-1 mb-0">The U.S.-Mexico-Canada Trade Deal Improves on NAFTA</p>
+          </a>
+          <p class="opi-font2 mt-1">BY MARYSCOTT GREENWOOD</p>
+        </div>
+        <div class="opinions mt-1 mr-3">
+          <img src="img/opinions/opi-6.png" class="img-opi float-left ml-2 mr-2" alt="...">
+          <a class="opi-font" href="#">
+            <p class="pt-1 mb-0">Church Attacks Are Opposite of Islam's True Teachings</p>
+          </a>
+          <p class="opi-font2 mt-1">BY CRAIG CONSIDINE</p>
+        </div>
+
+        <div class="latest-news mt-4">
+          <h6 class="main-header">LATEST NEWS</h6>
+          <div class="more-stories-sub mr-3">
+            <img src="img/latest/latest-1.jpg" class="img-latest float-left mr-3" alt="...">
+            <a class="opi-font" href="#">
+              <p class="latest-spacing pr-3">Why The Moon Is Moving Slowly Away From the Earth</p>
+            </a>
+          </div>
+          <div class="more-stories-sub mt-2 mr-3">
+            <img src="img/latest/latest-2.png" class="img-latest float-left mr-3" alt="...">
+            <a class="opi-font" href="#">
+              <p class="latest-spacing pr-3">Kindergarten Teacher Fired After Kicking Girl, 5</p>
+            </a>
+          </div>
+          <div class="more-stories-sub mt-2 mr-3">
+            <img src="img/latest/latest-3.png" class="img-latest float-left mr-3" alt="...">
+            <a class="opi-font" href="#">
+              <p class="latest-spacing pr-3">Rapper GameOva Reedy Arrested in Child Desertion Case</p>
+            </a>
+          </div>
+          <div class="more-stories-sub mt-2 mr-3">
+            <img src="img/latest/latest-4.png" class="img-latest float-left mr-3" alt="...">
+            <a class="opi-font" href="#">
+              <p class="latest-spacing pr-3">Man Accused of Killing Child Had Previous Deportations</p>
+            </a>
+          </div>
+          <div class="more-stories-sub mt-2 mr-3">
+            <img src="img/latest/latest-5.jpg" class="img-latest float-left mr-3" alt="...">
+            <a class="opi-font" href="#">
+              <p class="latest-spacing pr-3">Trump Says He Had a 'Hunch' Obama Wire Tapped Him</p>
+            </a>
+          </div>
+          <div class="more-stories-sub mt-2 mr-3">
+            <img src="img/latest/latest-6.jpg" class="img-latest float-left mr-3" alt="...">
+            <a class="opi-font" href="#">
+              <p class="latest-spacing pr-3">Caretaker Allegedly Raped Disabled Client: Police</p>
+            </a>
+          </div>
+          <div class="more-stories-sub mt-2 mr-3">
+            <img src="img/latest/latest-7.jpg" class="img-latest float-left mr-3" alt="...">
+            <a class="opi-font" href="#">
+              <p class="latest-spacing pr-3">Trump Criticizes 2020 Democratic Candidates on Hannity</p>
+            </a>
+          </div>
+          <div class="mt-2 mr-3">
+            <img src="img/latest/latest-8.jpg" class="img-latest float-left mr-3" alt="...">
+            <a class="opi-font" href="#">
+              <p class="latest-spacing pr-3">Everything You Need To Know About Taylor Swift's 'ME!'</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-4 articles">
+      <div class="col-lg-3 mb-2">
+        <div class="magazine">
+          <img src="img/articles/mag-cover-may03.jpg" alt="">
+          <p class="magazine-issue px-2 py-2 text-center">MAY 03 ISSUE</p>
+          <div class="text-center mag-feature-lk">
+            <a class="mag-feature-font" href="#">SEE ALL FEATURES</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-9 mb-2">
+        <div class="mag-features">
+          <p class="mag-font text-center">IN THE MAGAZINE</p>
+        </div>
+        <div class="d-flex justify-content-start row-top">
+          <div class="mag-article col-lg-4">
+            <img class="mag-img mb-2" src="img/articles/mag-4.jpg" alt="">
+            <div class="features mb-3">
+              <span class="features-icon">FEATURES</span>
+              <span class="ml-1"><a class="features-cat" href="#">U.S.</a></span>
+            </div>
+            <div class="mag-headline">
+              <h5><a class="mag-head-font" href="#">Adam Schiff Says Donald Trump Should Be Prosecuted</a></h5>
+            </div>
+          </div>
+          <div class="mag-article col-lg-4">
+            <img class="mag-img mb-2" src="img/articles/mag-2.jpg" alt="">
+            <div class="features mb-3">
+              <span class="features-icon">FEATURES</span>
+              <span class="ml-1"><a class="features-cat" href="#">U.S.</a></span>
+            </div>
+            <div class="mag-headline">
+              <h5><a class="mag-head-font" href="#">Hudson Yards: Poster Child of Middle Class Destruction?</a></h5>
+            </div>
+          </div>
+          <div class="mag-article col-lg-4">
+            <img class="mag-img mb-2" src="img/articles/mag-3.jpg" alt="">
+            <div class="features mb-3">
+              <span class="features-icon">DOWNTIME</span>
+              <span class="ml-1"><a class="features-cat" href="#">CULTURE</a></span>
+            </div>
+            <div class="mag-headline">
+              <h5><a class="mag-head-font" href="#">Ghost With the Most</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4 articles">
+      <div class="col-lg-3 mb-2">hello</div>
+      <div class="col-lg-9 mb-2">
+        <div class="d-flex justify-content-between row-btm">
+          <div class="mag-article col-lg-4">
+            <img class="mag-img mb-2" src="img/articles/mag-1.jpg" alt="">
+            <div class="features mb-3">
+              <span class="features-icon">DOWNTIME</span>
+              <span class="ml-1"><a class="features-cat" href="#">CULTURE</a></span>
+            </div>
+            <div class="mag-headline">
+              <h5><a class="mag-head-font" href="#">Behind the Caribbean Curtain</a></h5>
+            </div>
+          </div>
+          <div class="mag-article col-lg-4">
+            <img class="mag-img mb-2" src="img/articles/mag-5.jpg" alt="">
+            <div class="features mb-3">
+              <span class="features-icon">FEATURES</span>
+              <span class="ml-1"><a class="features-cat" href="#">U.S.</a></span>
+            </div>
+            <div class="mag-headline">
+              <h5><a class="mag-head-font" href="#">Inside the White House Security Clearance Scandal</a></h5>
+            </div>
+          </div>
+          <div class="mag-article col-lg-4">
+            <img class="mag-img mb-2" src="img/articles/mag-6.jpg" alt="">
+            <div class="features mb-3">
+              <span class="features-icon">DOWNLOADS</span>
+              <span class="ml-1"><a class="features-cat" href="#">U.S.</a></span>
+            </div>
+            <div class="mag-headline">
+              <h5><a class="mag-head-font" href="#">Should William Barr Recuse Himself From Mueller Report?</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="editor-heading mt-1">
+      <p class="mag-font text-center">EDITOR'S PICKS</p>
+    </div>
+
+    <div class="row editor-section">
+      <div class="col-lg-3">
+        <div class="picks-img">
+          <img class="img-fluid" src="img/editors-picks/picks-5.jpg" alt="">
+          <div class="editor-category px-2 py-2 text-center">U.S</div>
+        </div>
+        <article>
+          <h3 class="pt-2"><a class="editor-head-font" href="#">How to Watch the 2019 Met Gala Live Stream</a></h3>
+          <p class="more-stories-desc">The theme of the 2019 Met Gala is "Camp: Notes on Fashion."</p>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <div class="picks-img">
+          <img class="img-fluid" src="img/editors-picks/picks-2.jpg" alt="">
+          <div class="editor-category px-2 py-2 text-center">WORLD</div>
+        </div>
+        <article>
+          <h3 class="pt-2"><a class="editor-head-font" href="#">Iranian Lawmaker Warns U.S. Aircraft Carrier Could
+              'Definitely Be Drowned'</a></h3>
+          <p class="more-stories-desc">"War with Iran is playing with fire, and it will burn all, and not just Iran,"
+            said Iranian lawmaker Alaeddin Boroujerdi..</p>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <div class="picks-img">
+          <img class="img-fluid" src="img/editors-picks/picks-3.jpg" alt="">
+          <div class="editor-category px-2 py-2 text-center">U.S.</div>
+        </div>
+        <article>
+          <h3 class="pt-2"><a class="editor-head-font" href="#">Here's the Damage Trump Caused to the Global Economy
+              With Two Tweets</a></h3>
+          <p class="more-stories-desc">Trump's tweets catalyzed a decrease in the yuan's value, significant drops in the
+            three major U.S. stock indicies and a decline in oil prices.</p>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <div class="picks-img">
+          <img class="img-fluid" src="img/editors-picks/picks-4.jpg" alt="">
+          <div class="editor-category px-2 py-2 text-center">U.S</div>
+        </div>
+        <article>
+          <h3 class="pt-2"><a class="editor-head-font" href="#">Starbucks Cup in 'Game of Thrones' Wasn't the Only
+              Mistake in the Show</a></h3>
+          <p class="more-stories-desc">"You're telling me they had TWO YEARS to put together a decent show and they
+            couldn't even spot the goddamn Starbucks cup in Winterfell??!?!"</p>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <div class="picks-img">
+          <img class="img-fluid" src="img/editors-picks/picks-1.jpg" alt="">
+          <p class="editor-category px-2 py-2 text-center">CULTURE</p>
+        </div>
+        <article>
+          <h3 class="pt-2"><a class="editor-head-font" href="#">The First New York City Pride Parade</a></h3>
+          <p class="more-stories-desc">Exactly one year after Stonewall, Christopher Street Gay Liberation Day was
+            the world's first official Pride celebration. But it almost didn't happen.</p>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <div class="picks-img">
+          <img class="img-fluid" src="img/editors-picks/picks-6.jpg" alt="">
+          <p class="editor-category px-2 py-2 text-center">U.S.</p>
+        </div>
+        <article>
+          <h3 class="pt-2"><a class="editor-head-font" href="#">Washington Airport Operators Refuse to Serve ICE
+              Deportation Flights</a></h3>
+          <p class="more-stories-desc">"We do not want to see our publicly owned airport used for the wholesale
+            deportation of immigrant detainees," said King County Executive Dow Constantine.</p>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <div class="picks-img">
+          <img class="img-fluid" src="img/editors-picks/picks-7.jpg" alt="">
+          <p class="editor-category px-2 py-2 text-center">WORLD</p>
+        </div>
+        <article>
+          <h3 class="pt-2"><a class="editor-head-font" href="#">U.S. Lags China in 5G Network Equipment</a></h3>
+          <p class="more-stories-desc">“The real race between the U.S. and China is to digitalize their economies,” says
+            the CEO of an international telecom consultancy. “The rest is hype.”</p>
+        </article>
+      </div>
+      <div class="col-lg-3">
+        <div class="picks-img">
+          <img class="img-fluid" src="img/editors-picks/picks-8.jpg" alt="">
+          <p class="editor-category px-2 py-2 text-center">U.S.</p>
+        </div>
+        <article>
+          <h3 class="pt-2"><a class="editor-head-font" href="#">Larry Nassar Judge on the Importance of Victim
+              Statements at Sentencing</a></h3>
+          <p class="more-stories-desc">"Part of restitution means making them whole, and making them whole means that
+            they face their devil and tell them exactly what they want so that their healing can begin," the judge said.
+          </p>
+        </article>
+      </div>
+    </div>
+
+    <div class="col-lg-12">
+      <div class="other-sec-border other-section">
+        <h3 class="other-sec-font mt-4">U.S.</h3>
+      </div>
+    </div>
+
+    <div class="row other-section">
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/us/us-1.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">Muslim Man Allegedly Assault, Berated with Racial Slurs on NJ
+            Transit Train</a></h3>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/us/us-2.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">Alexandria Ocasio-Cortez and GOP Senator Rick Scott Trade
+            Blows</a></h3>
+      </div>
+      <div class="col-lg-4">
+        <div class="more-stories-sub pb-2">
+          <img src="img/other-stories/us/us-3.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Trump Ethics Chief Demands Mnuchin Release Tax Returns or Go To Jail</p>
+            </a>
+          </div>
+        </div>
+        <div class="more-stories-sub py-2">
+          <img src="img/other-stories/us/us-4.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Sources: Bernie Sanders' 2020 Run Almost A Possibility</p>
+            </a>
+          </div>
+        </div>
+        <div class="pt-2">
+          <img src="img/other-stories/us/us-5.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">3-Time Jeopardy Winner Wouldn't Be Playing, Find Out Why</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 mt-4">
+      <div class="other-sec-border other-section">
+        <h3 class="other-sec-font mt-4">World</h3>
+      </div>
+    </div>
+
+    <div class="row other-section">
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/world/world-1.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">Norway's Health Advice: 'Smoke, Drink and Eat as Much Red Meat’
+            as You Want</a></h3>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/world/world-2.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">Couple Kicked Off Plane for Ignoring In-Flight Safety
+            Briefing</a></h3>
+      </div>
+      <div class="col-lg-4">
+        <div class="more-stories-sub pb-2">
+          <img src="img/other-stories/world/world-3.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">U.S. Plan for Venezuela Isn't Working, but Russia May Not Be to Blame</p>
+            </a>
+          </div>
+        </div>
+        <div class="more-stories-sub py-2">
+          <img src="img/other-stories/world/world-4.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Pamela Anderson to Be Julian Assange's First Visitor in Prison</p>
+            </a>
+          </div>
+        </div>
+        <div class="pt-2">
+          <img src="img/other-stories/world/world-5.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Iran: U.S. Aircraft Carrier Deployment ‘Clumsy’ Psychological Warfare
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 mt-4">
+      <div class="other-sec-border other-section">
+        <h3 class="other-sec-font mt-4">Business</h3>
+      </div>
+    </div>
+
+    <div class="row other-section">
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/business/bus-1.png" alt="">
+        <h3 class=""><a class="other-head-font" href="#">Fox and Friends Wants To Make America Merch Again</a></h3>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/business/bus-2.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">Eric Trump Calls Democrats 'Deranged' After George Conway's
+            #DerangedDonald</a></h3>
+      </div>
+      <div class="col-lg-4">
+        <div class="more-stories-sub pb-2">
+          <img src="img/other-stories/business/bus-3.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Ivanka Trump, Jared Kushner Security Clearance Questions ‘Shut Down’</p>
+            </a>
+          </div>
+        </div>
+        <div class="more-stories-sub py-2">
+          <img src="img/other-stories/business/bus-4.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">George Conway Offers Rare Defense Of Trump On Emoluments Charge</p>
+            </a>
+          </div>
+        </div>
+        <div class="pt-2">
+          <img src="img/other-stories/business/bus-5.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Kellyanne Conway Broke the Law Attacking Joe Biden in White House Driveway
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 mt-4">
+      <div class="other-sec-border other-section">
+        <h3 class="other-sec-font mt-4">Tech & Science</h3>
+      </div>
+    </div>
+
+    <div class="row other-section">
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/tech-sci/tech-sci-1.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">Eta Aquarid Meteor Shower and Blue Moon Both Happening in May
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/tech-sci/tech-sci-2.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">
+            Our Ancient Cannibal Ancestors Saw Humans as an Easy Meal</a></h3>
+      </div>
+      <div class="col-lg-4">
+        <div class="more-stories-sub pb-2">
+          <img src="img/other-stories/tech-sci/tech-sci-3.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Periodic Table: The Deadly and Life-giving Elements of Group 15</p>
+            </a>
+          </div>
+        </div>
+        <div class="more-stories-sub py-2">
+          <img src="img/other-stories/tech-sci/tech-sci-4.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Climate Change Has Increased Risk of Devastating Banana Disease</p>
+            </a>
+          </div>
+        </div>
+        <div class="pt-2">
+          <img src="img/other-stories/tech-sci/tech-sci-5.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">DNA Reveals Clues About Ancient Mass Grave of Massacred Women and Children
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 mt-4">
+      <div class="other-sec-border other-section">
+        <h3 class="other-sec-font mt-4">Culture</h3>
+      </div>
+    </div>
+
+    <div class="row other-section">
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/culture/culture-1.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">James Charles Calling For 'Influencer Representation'?
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/culture/culture-2.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">‘Star Wars,’ ‘Avatar’ Sequels Face-Off Cancelled</a></h3>
+      </div>
+      <div class="col-lg-4">
+        <div class="more-stories-sub pb-2">
+          <img src="img/other-stories/culture/culture-3.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Disney+ Shows Undergo Shakeups as Streaming Platform Refines Tone</p>
+            </a>
+          </div>
+        </div>
+        <div class="more-stories-sub py-2">
+          <img src="img/other-stories/culture/culture-4.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">9 Best Places to Eat Near the High Line</p>
+            </a>
+          </div>
+        </div>
+        <div class="pt-2">
+          <img src="img/other-stories/culture/culture-5.png" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">'RHOBH' Season 9 Spoilers: Camille and Teddi Face Off</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 mt-4">
+      <div class="other-sec-border other-section">
+        <h3 class="other-sec-font mt-4">Sports</h3>
+      </div>
+    </div>
+
+    <div class="row other-section">
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/sports/sports-1.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">When, Where to Watch Ajax vs. Tottenham Champions League
+            Semifinal
+      </div>
+      <div class="col-lg-4">
+        <img class="img-fluid" src="img/other-stories/sports/sports-2.jpg" alt="">
+        <h3 class=""><a class="other-head-font" href="#">WWE Explains the New Wild Card Rule</a></h3>
+      </div>
+      <div class="col-lg-4">
+        <div class="more-stories-sub pb-2">
+          <img src="img/other-stories/sports/sports-3.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Time, Streaming Info for Liverpool vs. Barcelona Champions League Today</p>
+            </a>
+          </div>
+        </div>
+        <div class="more-stories-sub py-2">
+          <img src="img/other-stories/sports/sports-4.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">Watch Firefly Fun House Episode 3</p>
+            </a>
+          </div>
+        </div>
+        <div class="pt-2">
+          <img src="img/other-stories/sports/sports-5.jpg" class="img-latest float-left mr-3" alt="...">
+          <div class="clearfix">
+            <a href="#">
+              <p class="other-sub-font pr-3">WATCH: Monday Night RAW Results</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="content">
+        <div class="col-lg-12 top-ft">
+          <div class="footer-border d-flex justify-content-between">
+            <div class="logo d-flex align-items-end">
+              <img class="logo-ft float-left" src="img/logo/newsweek-ft.JPG" alt="">
+              <p class="pl-3 nw-cr float-left">© 2019 NEWSWEEK</p>
+            </div>
+            <div class="soc-links d-flex align-items-end">
+              <a href=""><i class="md-link fab fa-facebook-square fa-2x"></i></a>
+              <a href=""><i class="md-link fab fa-twitter-square fa-2x"></i></a>
+              <a href=""><i class="md-link fab fa-instagram fa-2x"></i></a>
+              <a href=""><i class="md-link fab fa-tumblr-square fa-2x"></i></a>
+              <a href=""><i class="md-link fab fa-linkedin-in fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="btm-ft">
+          <div class="col-lg-7 btm-ft-content">
+            <ul class="nav d-flex">
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">About Us</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Corrections</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Contact Us</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Editorial Guidelines</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Advertise</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Copyright</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Terms & Conditions</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Privacy Policy</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Cookie Policy</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Terms of Sale</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Archive</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Announcements</a></li>
+              <li class="nav-item active"><a class="d-flex align-self-center footer-link" href="">Consent preferences</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-5"></div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
